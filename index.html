@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="?php" href="php file.php">
+  <title>Complaint Registration</title>
+</head>
+<body>
+  <p class="p1">
+    <a href="https://www.ongcindia.com/wps/wcm/connect/en/home/">
+     <img border ="0" alt="ONGC" src="https://www.ongcindia.com/wps/wcm/connect/e216d987-2812-428f-b7a4-d0120d8ba406/logo.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e216d987-2812-428f-b7a4-d0120d8ba406-l19jnvr" width="100" height="100">
+    </a>
+  </p>
+
+<div class="heading">
+  <h1>Complaint Registration</h1>
+</div>
+
+<form action="results.html" method = "POST" enctype="multipart/form-data">
+    <div class="form1">
+      <label for="name">Name: <span style=color:red>*</span></label>
+      <input type="text" name = "name" id="name" placeholder="Your Name" required>
+    </div>
+    <br>
+    
+    <div class="form2">
+      <label for="designation">Designation: <span style=color:red>*</span></label>
+      <input type="text" name="designation" id="designation" placeholder="Your Designation" required>
+    </div>
+    <br>
+
+    <div class="form3">
+      <label for="gender">Gender: <span style="color: red;">*</span></label>
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="other">Other
+
+    </div>
+    <br>
+    
+    <div class="form4">
+      <label for="contact number">Contact Number: <span style=color:red>*</span> </label>
+      <input type="tel" name="contactNumber" id="contactNumber" placeholder="Mobile number" required maxlength="10" minlength="10">
+    </div>
+    <br>
+    
+     <div class="form5">
+      <label for="email">Email: <span style=color:red>*</span> </label>
+      <input type="email" name="email" id="email" placeholder="Your Email id" required>
+    </div>
+    <br>
+    <div class="form6">
+      <label for="CPF">CPF: <span style="color: red;">*</span> </label>
+      <input type="text" name="CPF" maxlength="7"  id="pin" required placeholder="Your CPF ID" required>
+    </div>
+    <br>
+    <div class="form7">
+      <label for="complaint">Upload Document: <span style=color:red>*</span> </label>
+      <input type="file" name="complaint" id="complaint" placeholder =".doc or .pdf file only" required accept=".pdf, .doc">
+      <p><span style="color: red;">*pdf or doc file only</span></p>
+    </div>
+    <br>
+    <div>
+      <center><button type = "submit"><h3>Submit</h3></button>
+    </div>
+  </form>>
+
+</body>
+</html>
