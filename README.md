@@ -1,2 +1,2 @@
-# complaint
-Thank You! Your complaint have been registered successfully.
+# Complaint
+This is a complaint registrations website.
